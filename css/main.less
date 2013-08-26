@@ -6,6 +6,10 @@
 @import "palette.less";
 
 
+* {
+	box-sizing: border-box;
+}
+
 html {
 	-webkit-font-smoothing: antialiased;
 	height: 100%;
@@ -27,7 +31,7 @@ a, a:link, a:visited, a:active {
 }
 
 body {
-	background: #ffffff;
+	background: @lightest;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -71,9 +75,9 @@ img {
 
 nav ul {list-style: none;display: inline;width: 100%;}
 nav ul li {display: inline-block; margin-right: 12px; background: @link_color; .rounded(4px);}
-nav ul li a {display: block; font-size: 12px; font-weight: 900; padding: 10px 18px 10px;color: @main_background_color;  }
-nav ul li:hover a, nav ul li.current a {color: @link_color !important;}
-nav ul li:hover, nav ul li.current {background: @main_background_color; }
+nav ul li a {display: block; font-size: 12px; font-weight: 900; padding: 10px 18px 10px;color: @nav;  }
+nav ul li:hover a, nav ul li.current a {color: @highlight !important;}
+nav ul li:hover, nav ul li.current {background: @highlight; }
 
 .footer {padding-top: 24px; margin-top: 48px;}
 .footer-bottom {background: #ffffff; padding-top: 12px; padding-bottom: 12px; }

@@ -399,7 +399,7 @@ h1 span {
   font-family: 'Entypo';
   margin-right: 12px;
   font-size: 1.6em;
-  color: #990000;
+  color: #2b3628;
 }
 /*---------------------------------------------------
     LESS Elements 0.9
@@ -408,6 +408,9 @@ h1 span {
     More info at: http://lesselements.com
   ---------------------------------------------------*/
 /* Palette */
+* {
+  box-sizing: border-box;
+}
 html {
   -webkit-font-smoothing: antialiased;
   height: 100%;
@@ -473,7 +476,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 12px;
-  background: #990000;
+  background: #2b3628;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -486,15 +489,15 @@ nav ul li a {
   font-size: 12px;
   font-weight: 900;
   padding: 10px 18px 10px;
-  color: #cccccc;
+  color: #2b3628;
 }
 nav ul li:hover a,
 nav ul li.current a {
-  color: #990000 !important;
+  color: #949408 !important;
 }
 nav ul li:hover,
 nav ul li.current {
-  background: #cccccc;
+  background: #949408;
 }
 .footer {
   padding-top: 24px;
